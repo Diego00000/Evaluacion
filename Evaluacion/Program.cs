@@ -6,7 +6,12 @@ namespace Evaluacion
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Billetera metod = new Billetera();
+            int opcion = metod.Gastar();
+            int deps = metod.Depositar();
+            int impr = metod.ImprimirDinero();
+           
+           
         }
     }
 }
